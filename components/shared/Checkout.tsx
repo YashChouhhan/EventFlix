@@ -6,6 +6,7 @@ import { Button } from '../ui/button';
 import { checkoutOrder } from '@/lib/actions/order.actions';
 
 loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
+console.log("STRIP KEY", process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!)
 
 const Checkout = ({ event, userId }: { event: IEvent, userId: string }) => {
   useEffect(() => {
