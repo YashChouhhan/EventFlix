@@ -64,7 +64,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
           </div>
 
           <Image
-            src="/assets/images/hero.svg"
+            src="/assets/images/hero.png"
             alt="hero"
             width={1000}
             height={1000}
