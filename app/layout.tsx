@@ -12,9 +12,9 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'eventFlix',
-  description: 'eventFlix is a platform for event management.',
+  description: 'EventFlix is all you need to Create, Host, Book Events.',
   icons: {
-    icon: '/assets/images/logo.svg'
+    icon: '/assets/images/favicon.svg'
   }
 }
 
